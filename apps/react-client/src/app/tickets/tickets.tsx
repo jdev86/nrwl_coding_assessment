@@ -1,13 +1,13 @@
 import { Ticket } from '@acme/shared-models';
 import styles from './tickets.module.css';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import React, { memo, useCallback, useEffect, useReducer, useState } from 'react';
 import { useTickets } from '@acme/use-tickets';
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import ListGroup from 'react-bootstrap/ListGroup';
-import ButtonGroup from 'react-bootstrap/esm/ButtonGroup';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Spinner from 'react-bootstrap/Spinner';
 
 export interface TicketsProps {

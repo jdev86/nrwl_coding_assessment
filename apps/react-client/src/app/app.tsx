@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import styles from './app.module.css';
 import { Tickets } from './tickets/tickets';
-import { TicketDetails } from './ticketDetails/ticketDetails';
+import TicketDetails from './ticket-details/ticket-details';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
